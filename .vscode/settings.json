@@ -1,0 +1,11 @@
+{
+    "cSpell.customDictionaries": {
+        "project-words": {
+            "name": "project-words",
+            "path": "${workspaceRoot}/.github/dictionary.txt",
+            "description": "Words used in this project",
+            "addWords": true
+        },
+
+    }
+}

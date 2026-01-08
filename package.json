@@ -1,0 +1,42 @@
+{
+	"name": "markdownlint-rule-unique-table-numbering",
+	"description": "A markdownlint rule that enforces unique first column in tables if first and second row are sequential numbers with same prefix.",
+	"license": "MIT",
+	"author": "Tomas Dahlqvist",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tomasdahlqvist/markdownlint-rule-unique-table-numbering.git"
+	},
+	"homepage": "https://github.com/TomasDahlqvist/markdownlint-rule-unique-table-numbering#readme",
+	"bugs": {
+		"url": "https://github.com/TomasDahlqvist/markdownlint-rule-unique-table-numbering/issues"
+	},
+	"exports": "./index.cjs",
+	"scripts": {
+		"lint": "markdownlint-cli2 *.md && eslint --max-warnings 0",
+		"test": "npm run lint && node --test --experimental-test-coverage"
+	},
+	"files": [
+		"package.json",
+		"LICENSE",
+		"README.md",
+		"index.cjs"
+	],
+	"keywords": [
+		"markdownlint-rule",
+		"markdownlint",
+		"markdown",
+		"headings",
+		"lint"
+	],
+	"devDependencies": {
+		"@eslint/js": "9.21.0",
+		"eslint": "^9.39.1",
+		"markdownlint-cli2": "^0.19.1"
+	},
+	"version": "0.0.1",
+	"main": "index.cjs",
+	"directories": {
+		"test": "test"
+	}
+}
