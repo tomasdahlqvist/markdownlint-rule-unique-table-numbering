@@ -5,7 +5,7 @@
 	"author": "Tomas Dahlqvist",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tomasdahlqvist/markdownlint-rule-unique-table-numbering.git"
+		"url": "git+https://github.com/tomasdahlqvist/markdownlint-rule-unique-table-numbering.git"
 	},
 	"homepage": "https://github.com/TomasDahlqvist/markdownlint-rule-unique-table-numbering#readme",
 	"bugs": {
@@ -34,7 +34,7 @@
 		"eslint": "^9.39.1",
 		"markdownlint-cli2": "^0.19.1"
 	},
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"main": "index.cjs",
 	"directories": {
 		"test": "test"
